@@ -12,8 +12,8 @@ const Header = () => {
             <Head>
 
                 <Name>
-                    <Name1>EBENEZER ALADESUYI 
-                    <span>(ebenezeraladesuyi@gmail.com)</span>
+                    <Name1>E-BEN
+                    {/* <span>(ebenezeraladesuyi@gmail.com)</span> */}
                     </Name1>
                     
                 </Name>
@@ -70,12 +70,6 @@ background-color: rgb(37, 35, 35);
 :hover{
     background-color: #ee5f38;
 }
-`;
-
-const Name2 = styled.h5`
-font-size: 15px;
-color: #ee5f38;
-font-weight: 600;
 `;
 
 const Name1 = styled.h5`
