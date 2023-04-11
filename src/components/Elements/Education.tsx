@@ -131,6 +131,10 @@ export default Education;
 const Down2 = styled.div`
 font-size: 16px;
 color: yellow;
+
+@media screen and (max-width: 425px) {
+    font-size: 13px;
+}
 `;
 
 const Down = styled.div`
@@ -142,11 +146,24 @@ span{
     margin-right: 10px;
     font-size: 18px;
 }
+
+@media screen and (max-width: 425px) {
+    font-size: 14px;
+}
 `;
 
 const Up2 = styled.div`
 font-size: 16px;
 color: yellow;
+
+@media screen and (max-width: 768px) {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 425px) {
+    font-size: 12px;
+    margin-left:15px;
+}
 `;
 
 const Up1 = styled.div`
@@ -154,9 +171,21 @@ font-size: 18px;
 display: flex;
 align-items: center;
 
+@media screen and (max-width: 425px) {
+    font-size: 16px;
+}
+
+// @media screen and (max-width: 375px) {
+//     font-size:14px;
+// }
+
 span{
     margin-right: 10px;
     font-size: 21px;
+
+@media screen and (max-width: 425px) {
+    font-size: 15px;
+}
 }
 `;
 
@@ -164,17 +193,29 @@ const Up = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
+width: 100%;
+// flex-wrap:wrap;
 `;
 
 const School = styled.div`
 width: 80%;
 height: 70px;
 margin-top: 10px;
+
+@media screen and (max-width: 425px) {
+margin-bottom: 20px;
+height: 100%;
+width: 100%;
+}
 `;
 
 const Hold = styled.div`
 width: 85%;
 color: white;
+
+@media screen and (max-width: 768px) {
+    width: 90%;
+}
 `;
 
 const Body = styled.div`

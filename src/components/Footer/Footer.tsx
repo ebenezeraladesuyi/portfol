@@ -67,7 +67,7 @@ const Footer = () => {
                     <CatText>Skills & Jobs</CatText>
                 </Cate></NavLink>
 
-                <NavLink to="/"
+                <NavLink to="/socials"
                     style={({isActive}) => { return {
                         textDecoration: isActive ? "none" : "none",
                         borderBottom: isActive ? "2px solid yellow" : "white",
@@ -96,21 +96,12 @@ export default Footer;
 
 // const Body = styled.div``;
 
-// const Body = styled.div``;
-
-// const Body = styled.div``;
-
-// const Body = styled.div``;
-
-// const Body = styled.div``;
-
-// const Body = styled.div``;
-
 const CatText = styled.div`
 font-size: 17px;
 color: white;
 // font-weight: 600;
 margin-top: 7px;
+text-align: center;
 `;
 
 const Icon = styled.div`
@@ -149,5 +140,9 @@ display: flex;
 justify-content: space-between;
 justify-content: center;
 align-items: center;
+
+@media screen and (max-width: 768px) {
+    display: none;
+}
 `;
 

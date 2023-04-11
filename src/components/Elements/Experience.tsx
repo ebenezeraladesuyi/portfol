@@ -32,7 +32,8 @@ const Experience = () => {
                         <Up>
                             <Down><span>
                                 <VscOrganization/>
-                                </span>Worked as a team with colleagues in developing an emergency saving/health app, and delivered in time</Down>
+                                </span>Worked as a team with colleagues in developing an emergency saving/health app, and delivered in time
+                            </Down>
                         </Up>
                     </School>
                    
@@ -76,7 +77,7 @@ const Experience = () => {
                        <Up>
                            <Down><span>
                                <VscOrganization/>
-                               </span>Worked as a team with other colleagues in developing an Estate mamagement app.</Down>
+                               </span>Worked as a team with other colleagues in developing an Estate management app.</Down>
                        </Up>
                    </School>
                    
@@ -141,11 +142,27 @@ span{
     margin-right: 10px;
     font-size: 18px;
 }
+
+@media screen and (max-width: 768px) {
+    font-size: 13px;
+}
+
+@media screen and (max-width: 320px) {
+    font-size: 11px;
+}
 `;
 
 const Up2 = styled.div`
 font-size: 16px;
 color: yellow;
+
+@media screen and (max-width: 768px) {
+    font-size: 13px;
+}
+
+@media screen and (max-width: 320px) {
+    font-size: 11px;
+}
 `;
 
 const Up1 = styled.div`
@@ -156,6 +173,10 @@ align-items: center;
 span{
     margin-right: 10px;
     font-size: 21px;
+}
+
+@media screen and (max-width: 320px) {
+    font-size: 16px;
 }
 `;
 
@@ -169,11 +190,19 @@ const School = styled.div`
 width: 80%;
 height: 90px;
 margin-top: 15px;
+
+@media screen and (max-width: 425px) {
+    width:100%;
+}
 `;
 
 const Hold = styled.div`
 width: 85%;
 color: white;
+
+@media screen and (max-width: 768px) {
+    width:90%;
+}
 `;
 
 const Body = styled.div`

@@ -8,6 +8,7 @@ import Profile from "../Elements/Profile";
 import Education from "../Elements/Education";
 import Experience from "../Elements/Experience";
 import Skills from "../Elements/Skills";
+import Socials from "../Elements/Socials";
 
 
 const AllRoutes = () => {
@@ -28,6 +29,10 @@ const AllRoutes = () => {
         {
             path:"/skills",
             element: <Skills />
+        },
+        {
+            path:"/socials",
+            element: <Socials />
         },
     ])
 
@@ -70,17 +75,31 @@ width: 100%;
 height: 140px;
 border-top: 1px solid yellow;
 // border-top: 1px solid #ee5f38;
+
+@media screen and (max-width: 768px) {
+    display: none;
+}
 `;
 
 const Right = styled.div`
 width: calc(100% - 430px);
 height: calc(100vh - 210px);
+
+@media screen and (max-width: 768px) {
+    width: 100%;
+    height:100%;
+    margin-top: 30px;
+}
 `;
 
 const Left = styled.div`
 width: 400px;
 height: calc(100vh - 215px);
 // background-color: blue;
+
+@media screen and (max-width: 768px) {
+    display: none;
+}
 `;
 
 const Middle = styled.div`
