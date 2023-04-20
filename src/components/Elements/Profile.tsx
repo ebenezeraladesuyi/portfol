@@ -104,7 +104,7 @@ text-align: justify;
 
 @media screen and (max-width: 425px) {
     font-size: 12px;
-width: 100%;
+width: 92%;
 }
 `;
 

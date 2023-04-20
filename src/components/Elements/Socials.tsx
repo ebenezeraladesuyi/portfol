@@ -19,7 +19,7 @@ const Socials = () => {
                        
 
                        <Up>
-                           <Down href="https://github.com/eben1909"><span>
+                           <Down href="https://github.com/ebenezeraladesuyi"><span>
                                <AiOutlineGithub/>
                                </span>
                                github.com/eben1909
@@ -35,7 +35,7 @@ const Socials = () => {
                        </Up>
 
                        <Up>
-                           <Down href="https://linkedin.com/ebenezeraladesuyi"><span>
+                           <Down href="https://www.linkedin.com/in/aladesuyi-ebenezer-b49931208/"><span>
                                <AiFillLinkedin/>
                                </span>
                                linkedin.com/ebenezeraladesuyi
